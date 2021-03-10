@@ -1,0 +1,227 @@
+body { 
+    background-image: url("../img/fondoPagina.png");
+    background-size: cover;
+    font-family: Verdana;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    color: white; 
+    font-size: 4rem;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.header-principal {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+label {
+    margin-right: 2rem;
+}
+
+*{box-sizing:border-box;}
+
+.form-productos {
+   width:22.5rem;
+   padding:1rem;
+   border-radius:1rem;
+   margin:auto;
+   background-color:orange;
+     
+}
+
+.form-clientes {
+    width:19.5rem;
+    padding:1rem;
+    border-radius:1rem;
+    margin:auto;
+    background-color:orange;  
+}
+
+.form-clientes label{
+    width:4rem;
+    font-weight:bold;
+    display:inline-block;
+}
+
+form label{
+	width:3.5rem;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.form-label-pro{
+   width:7rem;
+   font-weight:bold;
+   display:inline-block;
+}
+
+.form-label-input input{
+	width:11rem;
+	padding:0.08rem 0.6rem;
+	border:0.06rem solid #f6f6f6;
+	border-radius:0.3rem;
+	background-color:#f6f6f6;
+	margin:0.5rem 0;
+	display:inline-block;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+.navegacion-index a, .nav-productos a {
+   text-decoration: none;
+   padding-right: 1rem; 
+   color: white;
+   font-size: 1.3rem;
+}
+
+.contenedor a:hover {
+    color: #00bb2d;
+}
+
+.nav-productos a:hover{ 
+    color:#00bb2d;
+}
+
+.nave-borr-mod-productos a {
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+.nave-borr-mod-productos a:hover {
+    font-size: 1.4rem;
+}
+
+.nave-borr-mod-productos {
+    text-align: center;
+}
+
+.datos-eliminar h2 {
+    margin-bottom: 3.5rem;
+}
+
+.btnAceptar {
+    width: 100%;
+	padding:0.5rem 1rem;
+    background-color: #086788;
+    color: white;
+    border-radius:0.3rem;
+	display:block;
+    border:0.06rem solid #086788;
+    font-size: 12pt;
+}
+
+.labels-productos {
+    margin-bottom: 2rem;
+}
+
+.form-eliminar {
+    margin: auto;
+    margin-top: 2rem;
+    background-color: initial;
+    width:18rem;
+    padding:1rem;
+    border-radius:1rem;
+    
+}
+
+.btnCancelar{
+    width: 100%;
+	padding:0.5rem 1rem;
+	margin-top:1rem;
+	border:0.06rem solid #BD1E1E;
+	border-radius:0.3rem;
+	display:block;
+	color:#fff;
+    font-size: 12pt;
+	background-color:#BD1E1E;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnEliminar {
+    padding: 1px;
+    color: #BA2D0B;
+    margin-right: 1rem; 
+}
+
+.btnModificar {
+    color: #086788;
+    padding: 1px;
+} 
+
+.datos-eliminar{
+    text-align: center;
+    color: white;
+}
+
+.datos-eliminar input, label {
+    margin-bottom: 1rem;
+}
+
+.datos-eliminar input {
+    color: black;
+}
+
+/**** Estilos tablas ****/
+
+table {
+    background-color: rgb(237, 246, 252);
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: solid 1px rgb(0, 128, 128);
+}
+
+th {
+    color: white;
+    background-color: #086788;
+}
+
+.form-mod-productos label{
+    margin-right: 0.5rem;
+    width:9rem;
+    font-weight:bold;
+    display:inline-block;
+ }
+
+.form-mod-productos {
+    width:23rem;
+    padding:1rem;
+    border-radius:1rem;
+    margin: 2rem auto;
+    background-color:orange;
+      
+}
+
+.back-consultar {
+    color: #086788;
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.nav-productos {
+    text-align: end;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/Normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+	<script src="https://kit.fontawesome.com/3d2d747a7d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<a class="back-consultar" href="../Index.html"><i class="fas fa-hand-point-left"></i></a>
+    <h2>Productos</h2>
+	<form action="../php/respInsertarProducto.php" method="POST" class="form-productos">
+		<div class="form-label-input">
+			<label class="form-label-pro">Id_Producto:</label>
+			<input type="number" name="IdProducto" required placeholder="Ingrese id del producto"><br>
+			<label class="form-label-pro">Nombre:</label>
+			<input type="text" name="nombre" max="40" required placeholder="Ingrese nombre del producto"><br>
+			<label class="form-label-pro">Precio Actual:</label>
+			<input type="number" step="any" name="precioActual" placeholder="Ingrese el precio"><br>
+			<label class="form-label-pro">Stock:</label>
+			<input type="number" name="stock"><br>
+			<label class="form-label-pro">RUT_Proveedor:</label>
+			<input type="text" name="fk_proveedor"><br>
+			<label class="form-label-pro">ID_Categoria:</label>
+			<input type="number" name="fk_categoria"><br><br>
+		</div>
+	
+        <input class="btnAceptar" type="submit" name="enviar" value="Registrar"> 
+
+    </form>
+	<br>
+
+	<nav class="nav-productos">
+		<a href="../php/consultarProductos.php">Ver Productos</a>
+	</nav>
+
+</body>
+</html>

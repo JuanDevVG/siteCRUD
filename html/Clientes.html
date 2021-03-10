@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="css/Normalize.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/3d2d747a7d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <a class="back-consultar" href="../Index.html"><i class="fas fa-hand-point-left"></i></a><br><br>
+    <h2>Registrar Clientes</h2>
+    <div>
+         <form class="form-clientes" action="../php/respInsertarClientes.php" method="POST" >
+            <div class="form-label-input">
+                <label>RUT:</label>
+                <input type="text" name="rutCliente" required placeholder="Ingrese el RUT del cliente"><br>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" max="40" required placeholder="Ingrese nombre"><br>
+                <label>Telefono:</label>
+                <input type="text" name="telefono"><br>
+
+                <h3>Direccion</h3>
+                
+                <label>Calle:</label>
+                <input type="text" name="calle" maxlength="5" placeholder="numero de calle"><br>
+                <label>Numero:</label>
+                <input type="text" name="numeroDir" maxlength="5" placeholder="numero de casa"><br>
+                <label>Comuna:</label>
+                <input type="text" name="comuna" placeholder="numero de comuna"><br>
+                <label>Ciudad:</label>
+                <input type="text" name="ciudad" placeholder="nombre de ciudad"><br><br>
+            </div>
+
+            <input class="btnAceptar" type="submit" name="enviar" value="Registrar"> 
+        </form>    
+    </div>
+    <br>
+    <nav class="nav-productos">
+		<a href="../php/consultarClientes.php">Ver clientes</a>
+	</nav>
+    
+    
+</body>
+</html>
